@@ -21,6 +21,11 @@ python3 -m pip install wheel
 pip install -r requirements.txt
 ```
 
+Also install libclang (assuming Ubuntu 22.04+):
+
+```
+sudo apt-get install libclang-15-dev  
+```
 
 ## Usage
 
