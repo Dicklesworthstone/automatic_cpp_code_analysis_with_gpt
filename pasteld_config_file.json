@@ -1,0 +1,16 @@
+{
+    "project_name": "pastel",
+    "project_folder": "/home/ubuntu/pastel_source/pastel/src/",
+	"output_folder": "output_files/pastel/src/",
+    "database_url": "sqlite:///pastel_analysis.sqlite",
+    "max_code_length": 5000,
+    "split_boundary": "FUNCTION_DECL",
+    "analysis_interval": 5,
+    "openai_api_key": "sk-XXXXXXX",
+    "first_message_prompt": "Below is a C++ code file from the {} project, called `{}`. Please look for bugs and potential problems in the code and propose specific code changes to address them (you can also give me other ideas for improvements to code reliability and performance, but your focus should be on detecting even subtle bugs and proposing concrete changes to fix them, without introducing any new bugs in the process.):\n\n",
+    "part_message_prompt": "Here is part {} of {} of the related code file from the {} project, called `{}`. Please give the same kind of analysis, looking for bugs and potential problems and proposing specific code changes to address them. Please focus more on potential bugs and fixes. Here is the code:\n\n",
+    "max_tokens": 3000,
+    "n": 1,
+    "stop": null,
+    "temperature": 0.5
+}

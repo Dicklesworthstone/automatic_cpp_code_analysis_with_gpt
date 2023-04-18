@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Analyze C++ Project",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/analyze_cpp_codebase.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--config",
+                "${workspaceFolder}/pasteld_config_file.json"
+            ]
+        }
+    ]
+}
